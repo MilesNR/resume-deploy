@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.Aboutme-container {
+  display: flex;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.avatar {
+  width: 350px;
+  border-radius: 50%;
+  padding: 15px;
+  background-color: white;
+  margin-right: 50px;
+  box-shadow: 10px 10px 35px 0.5px rgba(0, 0, 0, 0.12);
+}
+.Job-postions {
+  color: rgb(174, 172, 172);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Name-title {
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.jd {
+  width: 600px;
+  color: rgb(132, 132, 132);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-panel {
+  padding: 10px 0 0 0;
+}
+.btn {
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  border-color: rgb(1, 123, 235);
+  margin-right: 10px;
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: rgb(1, 123, 235);
+  color: white;
+  cursor: pointer;
+}
+.Title {
+  font-size: 22px;
+  font-weight: bold;
+  width: max-content;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, rgb(1, 123, 235) 40%, lightgray 25%) 5;
+}
+.contact-container {
+  margin-left: 30px;
+}
+.contact-content {
+  margin: 10px 0 10px 0;
+}
+
+@media only screen and (max-width: 1100px) {
+  .Aboutme-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar {
+    width: 300px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    margin-left: 50px;
+    box-shadow: 10px 10px 35px 0.5px rgba(0, 0, 0, 0.12);
+  }
+  .Aboutme-text {
+    margin-left: 190px;
+  }
+  .Name-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .contact-container {
+    margin-right: 20px;
+  }
+}
